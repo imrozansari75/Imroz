@@ -18,7 +18,7 @@ const Header = () => {
                 <p className=''>
 
                 </p>
-                <img src={ProfilePic} className='w-8 h-8 mr-2 border-2 rounded-full sm:mr-12 md:mr-3 ml-auto border-l' alt="" />
+                <img src={ProfilePic} className='w-8 h-8 mr-2 border-2 rounded-full md:mr-3 ml-auto border-l' alt="" />
             </div>
         </div>
     )
