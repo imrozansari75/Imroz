@@ -1,6 +1,4 @@
-import './App.css';
 import bgVideo from './assets/bgvideo.mp4'
-import { HashRouter } from 'react-router-dom';
 import Layout from './layout/Layout';
 
 function App() {
@@ -16,11 +14,9 @@ function App() {
         <source src={bgVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <HashRouter>
-        <Layout />
-      </HashRouter>
+      <Layout />
     </div>
-  );
+  )
 }
 
 export default App;
