@@ -116,14 +116,15 @@ const Sidebar = () => {
                                 key={link.id}
                                 className="flex justify-center md:justify-start items-center gap-4 cursor-pointer"
                             >
-                                <HashLink
-                                    to={link.href}
-                                    smooth
+                                <a
+                                    href={link.href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="flex items-center gap-2 text-white"
                                 >
                                     {link.icon}
                                     <span className="hidden md:block">{link.name}</span>
-                                </HashLink>
+                                </a>
                             </li>
 
                         ))}

@@ -5,6 +5,32 @@ const Jobs = () => {
     {
       id: 1,
       title: "Frontend Developer Intern",
+      company: "Codermates Technologies",
+      duration: "September 2025 – December 2026",
+      responsibilities: [
+        "Worked as a Front-End Intern, building clean and interactive user interfaces.",
+        "Contributed to three projects, including an e-commerce platform.",
+        "Created JSON-based product data and dynamic website sections.",
+        "Developed responsive layouts and improved overall user experience."
+      ]
+    },
+    {
+      id: 2,
+      title: "Web Developer Intern",
+      company: "GOALKEEP",
+      duration: "September 2025 – January 2026",
+      responsibilities: [
+        "Developed websites using WordPress and Wix based on provided requirements and content.",
+        "Implemented pre-built themes, pages, and components to ensure proper site functionality.",
+        "Customized website structure, plugins, and basic settings as required.",
+        "Ensured responsive behavior and proper display across devices.",
+        "Assisted in publishing and updating website pages as per instructions.",
+        "Resolved basic functionality and layout-related issues during development."
+      ]
+    },
+    {
+      id: 3,
+      title: "Frontend Developer Intern",
       company: "AppX Studio",
       duration: "December 2024 – January 2025",
       responsibilities: [
@@ -14,7 +40,7 @@ const Jobs = () => {
       ]
     },
     {
-      id: 2,
+      id: 4,
       title: "Frontend Developer Intern",
       company: "Fukui Accent Pvt. Ltd. & Tozai Safety Pvt. Ltd.",
       duration: "July 2024 – September 2024",
@@ -26,7 +52,7 @@ const Jobs = () => {
 
     },
     {
-      id: 3,
+      id: 5,
       title: "Data Cleaning",
       company: "Goalkeep",
       duration: "April 2024 – May 2024",

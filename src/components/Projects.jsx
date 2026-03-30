@@ -2,20 +2,12 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Fitness Club Website",
+      title: "RoutineX",
       description:
-        "A modern and responsive fitness website designed to promote health programs and gym memberships. The site features smooth navigation, informative sections about trainers, programs, testimonials, and pricing plans. It is optimized for performance and built using semantic HTML, clean CSS, and JavaScript to enhance interactivity.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      demoLink: "https://github.com/imrozansari75/The-Fit-Club",
-      githubLink: "https://github.com/imrozansari75/The-Fit-Club",
-    },
-    {
-      title: "Stock Market Card",
-      description:
-        "An interactive card component that fetches and displays real-time stock market data, built with React and Chart.js. It visualizes stock performance through dynamic charts and provides up-to-date market trends in a sleek, responsive UI. Ideal for dashboards or financial platforms where users need quick access to data insights.",
-      technologies: ["React.js", "Tailwind CSS", "Chart.js"],
-      demoLink: "https://github.com/imrozansari75/Stock-Cards",
-      githubLink: "https://github.com/imrozansari75/Stock-Cards",
+        "A productivity app that helps you manage your daily tasks and track them efficiently. It also includes workout planning features to help you stay fit and organized. Built with a clean, intuitive interface for seamless task and workout management.",
+      technologies: ["React.js", "Tailwind CSS"],
+      demoLink: "https://routine-x-theta.vercel.app/",
+      githubLink: "https://github.com/imrozansari75/routineX",
     },
   ];
 
@@ -53,9 +45,22 @@ const Projects = () => {
                 ))}
               </div>
 
-              {/* GitHub Button */}
-              {project.githubLink && (
-                <div className="pt-2">
+              {/* Buttons */}
+              <div className="pt-2 flex gap-3">
+                {project.demoLink && (
+                  <a
+                    href={project.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm bg-white/10 hover:bg-white/20 transition px-4 py-2 rounded-full"
+                  >
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                    Live Demo
+                  </a>
+                )}
+                {project.githubLink && (
                   <a
                     href={project.githubLink}
                     target="_blank"
@@ -85,8 +90,8 @@ const Projects = () => {
                     </svg>
                     View Code
                   </a>
-                </div>
-              )}
+                )}
+              </div>
             </div>
           ))}
         </div>
