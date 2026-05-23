@@ -21,7 +21,7 @@ export default function Education() {
         <h2 className="text-2xl md:text-3xl font-bold mb-6 md:px-0">Education</h2>
 
         {/* Outer container */}
-        <div className="space-y-4 p-8 bg-black/40 rounded-3xl shadow-md">
+        <div className="bg-black/40 px-6 py-6 md:px-8 rounded-3xl shadow-lg space-y-4">
           {education.map((edu, index) => (
             <div key={index}>
               <h3 className="text-lg font-semibold">{edu.institution}</h3>
@@ -31,7 +31,6 @@ export default function Education() {
           ))}
         </div>
       </div>
-      <div className='h-4 sm:h-4'></div>
     </section>
   );
 }

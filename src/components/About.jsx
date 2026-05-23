@@ -4,9 +4,8 @@ import resume from '../assets/resume.pdf';
 const About = () => {
   return (
 
-    <section id="about" classNameName='flex pt-4 md:px-8'>
-      <div className='h-4 sm:h-8'></div>
-      {/* ______ About content ______ */}
+    <section id="about" className="flex flex-col py-2 px-0 md:px-4 max-w-6xl mx-auto">
+      <div className="sm:mt-4">
       <div className="about-gradient flex flex-col md:flex-row items-center justify-between text-white rounded-2xl px-6 py-4 md:px-4 sm:max-w-6xl mx-auto shadow-lg">
         <div className="md:w-2/3">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">Imroz Ansari</h2>
@@ -29,6 +28,7 @@ const About = () => {
         <div className="mt-8 md:mt-0 md:w-1/3 flex justify-center">
           <img src={Coding} alt="Developer at desk" className="w-60 max-w-full" />
         </div>
+      </div>
       </div>
     </section>
 

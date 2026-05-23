@@ -14,11 +14,8 @@ const Header = () => {
             </div>
 
             {/* ________ Profile Image ________ */}
-            <div className='w-full items-center md:w-10 p-2 md:p-0 md:flex flex justify-between'>
-                <p className=''>
-
-                </p>
-                <img src={ProfilePic} className='w-8 h-8 mr-2 border-2 rounded-full md:mr-3 ml-auto border-l' alt="" />
+            <div className='p-2 md:p-0 flex justify-end'>
+                <img src={ProfilePic} className='w-8 h-8 mr-2 border-2 rounded-full md:mr-3 border-l' alt="" />
             </div>
         </div>
     )

@@ -8,7 +8,7 @@ import Education from '../components/Education'
 
 const MainLayout = () => {
   return (
-   <main className="px-2 sm:px-28 py-8 sm:py-4 flex flex-col h-screen overflow-y-auto custom-scrollbar">
+   <main className="px-2 sm:px-28 py-4 flex flex-col h-screen overflow-y-auto custom-scrollbar">
       <div className="flex-1 rounded-3xl bg-black/30 flex flex-col overflow-hidden">
         <Header />
 
