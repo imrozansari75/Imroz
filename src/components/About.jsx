@@ -11,10 +11,7 @@ const About = () => {
         <div className="md:w-2/3">
           <h2 className="text-2xl md:text-3xl font-bold mb-2">Imroz Ansari</h2>
           <p className="leading-relaxed mb-3">
-            Motivated and detail-oriented Computer Science student with hands-on experience in frontend
-            development, React.js, and API integrations. Passionate about building responsive and user-friendly web
-            applications using modern technologies like Tailwind CSS and JavaScript. Eager to contribute my skills to
-            a dynamic team and continue growing in the software development field.
+         I’m a tech enthusiast with experience across web development and data-focused problem solving. From building responsive React applications and integrating APIs to cleaning, validating, and analyzing datasets using SQL, Python, and Excel, I enjoy solving real-world problems through technology. I’m currently seeking opportunities in software development, frontend/web development, or data-related roles such as data analysis.
           </p>
           <button
             className="text-white font-semibold px-4 py-2 rounded-full transition duration-300"

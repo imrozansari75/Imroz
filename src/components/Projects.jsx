@@ -21,7 +21,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-transparent hover:bg-black/50 transition hover:scale-105 duration-300 border border-black/40 p-6 rounded-3xl space-y-4"
+              className="bg-transparent hover:bg-black/50 transition duration-300 border border-black/40 p-6 rounded-3xl space-y-4"
             >
               {/* Title */}
               <div className="flex justify-between items-center">

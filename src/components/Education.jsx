@@ -4,14 +4,12 @@ export default function Education() {
     {
       institution: "Nagindas Khandwala College",
       degree: "B.Sc. in Information Technology",
-      result: "CGPA: 8.82",
-      year: "2023 - 2026",
+      result: "CGPA: 8.86",
     },
     {
       institution: "Ismail Yusuf Junior College",
       degree: "HSC - Science",
       result: "Percentage: 70%",
-      year: "2022 - 2023",
     },
   ];
 
@@ -29,7 +27,6 @@ export default function Education() {
               <h3 className="text-lg font-semibold">{edu.institution}</h3>
               <p className="text-sm">{edu.degree}</p>
               <p className="text-sm">{edu.result}</p>
-              <p className="text-xs">{edu.year}</p>
             </div>
           ))}
         </div>

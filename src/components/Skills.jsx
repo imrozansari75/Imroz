@@ -6,7 +6,7 @@ import react from '../assets/react.png';
 import git from '../assets/git.png';
 import github from '../assets/github.png';
 import python from '../assets/python.png';
-import django from '../assets/django.png';
+import mysql from '../assets/mysql.png';
 
 const techStack = [
   { id: 1, icon: html, name: "HTML", width: 50, height: 50 },
@@ -17,7 +17,7 @@ const techStack = [
   { id: 6, icon: git, name: "Git", width: 50, height: 50 },
   { id: 7, icon: github, name: "GitHub", width: 50, height: 50 },
   { id: 8, icon: python, name: "Python", width: 50, height: 50 },
-  { id: 9, icon: django, name: "Django", width: 100, height: 100 },
+  { id: 9, icon: mysql, name: "MySQL", width: 50, height: 50 },
 ];
 
 
